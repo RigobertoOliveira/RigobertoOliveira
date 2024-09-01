@@ -141,7 +141,7 @@ section {
     margin-left: 20px;
 }
 
-.formacao-conteudo ul li {
+.formacao-conteúdo ul li {
     margin-bottom: 10px;
 }
 
@@ -208,9 +208,10 @@ button {
 }
 
 button:hover {
-    background-color: #e60000; /* Cor do botão ao passar o mouse */
+    background-color: #e60000; /* Cor de fundo mais escura para o hover */
 }
 
+/* Estilo específico da seção de portfólio */
 .portfolio-item {
     background-color: #111; /* Fundo escuro para destaque */
     padding: 20px;
@@ -218,23 +219,9 @@ button:hover {
     margin-bottom: 20px;
 }
 
-.portfolio-item h3 {
-    font-size: 1.8em;
-    color: #ff0000; /* Vermelho para os subtítulos */
-    border-bottom: 2px solid #ff0000; /* Linha vermelha abaixo dos subtítulos */
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-}
-
-.portfolio-item ul {
-    margin-left: 20px;
-}
-
-.portfolio-item ul li {
-    margin-bottom: 10px;
-}
-
+/* Ajuste do link de download */
 .portfolio-item a {
+    display: block; /* Faz o link ocupar a linha inteira */
     color: #ff0000;
     text-decoration: none;
     font-weight: bold;
@@ -243,55 +230,11 @@ button:hover {
     background-color: #000;
     border: 2px solid #ff0000;
     transition: background-color 0.3s, color 0.3s;
+    margin-top: 20px; /* Espaçamento acima do link */
+    text-align: center; /* Centraliza o texto do link */
 }
 
 .portfolio-item a:hover {
     background-color: #ff0000;
     color: #fff;
-}
-
-/* Estilo do formulário de contato */
-form {
-    background-color: #111; /* Fundo escuro para o formulário */
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 1.2em;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ff0000;
-    border-radius: 5px;
-    background-color: #222; /* Fundo escuro para campos de entrada */
-    color: #fff; /* Texto branco nos campos de entrada */
-}
-
-.form-group textarea {
-    resize: vertical; /* Permite que o textarea seja redimensionado verticalmente */
-}
-
-button {
-    background-color: #ff0000; /* Fundo vermelho para o botão */
-    color: #fff; /* Texto branco no botão */
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1.2em;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #e60000; /* Cor de fundo mais escura para o hover */
 }
