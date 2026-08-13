@@ -3,44 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mim - Portfólio de Rigoberto Oliveira</title>
+    <meta name="description" content="Portfólio de Rigoberto Oliveira, Analista de Sistemas Jr. focado em produtos web, cloud, automação e plataformas corporativas.">
+    <title>Rigoberto Oliveira | Desenvolvedor e Analista de Sistemas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <h1>Portfólio de Rigoberto Oliveira</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Sobre mim</a></li>
-                    <li><a href="formacao.html">Formação</a></li>
-                    <li><a href="portfolio.html">Portfólio</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
+    <header class="site-header">
+        <div class="container header-grid">
+            <a class="brand" href="index.html" aria-label="Página inicial">
+                <span>RO</span>
+                <strong>Rigoberto Oliveira</strong>
+            </a>
+            <nav class="nav" aria-label="Navegação principal">
+                <a class="active" href="index.html">Sobre</a>
+                <a href="formacao.html">Formação</a>
+                <a href="portfolio.html">Portfólio</a>
+                <a href="contato.html">Contato</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="perfil">
-            <h2 class="titulo-secao">Quem sou eu</h2>
-            <div class="perfil-conteudo">
-                <div class="perfil-imagem">
-                    <!-- Atualize o caminho da imagem conforme necessário -->
-                    <img src="imagens/eu.jpg" alt="Foto de Rigoberto Oliveira">
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="section-label">Analista de Sistemas Jr. e desenvolvedor em evolução</p>
+                    <h1>Construo soluções digitais para transformar processos em produtos úteis.</h1>
+                    <p class="hero-text">Minha experiência nasceu no suporte a sistemas e na operação real de empresas. Hoje uso essa base para desenvolver aplicações web, automações, dashboards e plataformas com foco em usabilidade, segurança e resultado.</p>
+                    <div class="hero-actions">
+                        <a class="button primary" href="portfolio.html">Ver projeto principal</a>
+                        <a class="button secondary" href="contato.html">Falar comigo</a>
+                    </div>
                 </div>
-                <div class="perfil-descricao">
-                    <p>Olá, meu nome é Rigoberto Oliveira, tenho 30 anos, sou casado e pai de um menino de 4 meses. Atuo como Analista de Sistemas JR na Casa do Construtor, auxiliando franqueados na utilização dos sistemas do franqueador. Minhas responsabilidades incluem tirar dúvidas sobre o sistema, cadastrar novas lojas, instalar software da empresa e fornecer suporte necessário aos franqueados para que possam operar de forma eficaz.</p>
-                    <p>Nas horas vagas gosto de me dedicar à minha família, principalmente ao meu filho, que é minha maior alegria. Além disso, procuro sempre aprender coisas novas através do estudo ou da experiência prática. Tenho paixão por tecnologia e programação, o que me inspira a melhorar continuamente minhas habilidades técnicas. </p>
-                    <p>Meu outro grande hobby é a música. Sou fã de rock, heavy metal e metal melódico, e algumas das minhas bandas favoritas incluem Avenged Sevenfold e Nightwish. Além de ouvir música, gosto de tocar instrumentos como trompete, bateria, guitarra e baixo, o que me permite explorar minha criatividade musical de diversas maneiras.</p>
-                    <p>Além disso, também tenho interesse em ler, principalmente livros que ampliem meus conhecimentos em áreas como desenvolvimento pessoal, tecnologia e ficção científica.</p>
+                <aside class="hero-panel" aria-label="Resumo profissional">
+                    <div class="profile-card">
+                        <img src="imagens/eu.jpg" alt="Foto de Rigoberto Oliveira">
+                        <div>
+                            <strong>Rigoberto Oliveira</strong>
+                            <span>Produtos web, suporte técnico e cloud</span>
+                        </div>
+                    </div>
+                    <dl class="quick-stats">
+                        <div>
+                            <dt>Foco atual</dt>
+                            <dd>Universidade corporativa, BI e Cloudflare</dd>
+                        </div>
+                        <div>
+                            <dt>Base prática</dt>
+                            <dd>Suporte, implantação e melhoria de processos</dd>
+                        </div>
+                        <div>
+                            <dt>Direção</dt>
+                            <dd>Produtos prontos para uso real em empresas</dd>
+                        </div>
+                    </dl>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container split">
+                <div>
+                    <p class="section-label">Como penso tecnologia</p>
+                    <h2>Começo pelo problema, depois desenho a solução.</h2>
+                </div>
+                <div class="text-stack">
+                    <p>Gosto de entender a rotina de quem usa o sistema: onde perde tempo, onde erra, onde precisa de controle e onde a interface pode tornar o trabalho mais simples.</p>
+                    <p>Essa visão vem do contato direto com usuários, lojas, implantação de sistemas e suporte. Meu objetivo é unir esse conhecimento prático com desenvolvimento moderno para criar produtos úteis, bonitos e sustentáveis.</p>
                 </div>
             </div>
-        </section>        
+        </section>
+
+        <section class="section soft">
+            <div class="container">
+                <p class="section-label">Competências em construção</p>
+                <div class="skill-grid">
+                    <article>
+                        <h3>Frontend e experiência</h3>
+                        <p>React, TypeScript, CSS responsivo, interfaces administrativas, portais e experiências de aprendizagem.</p>
+                    </article>
+                    <article>
+                        <h3>Cloud e dados</h3>
+                        <p>Cloudflare Workers, D1, R2, modelagem de dados, regras de acesso, deploy e operação de piloto.</p>
+                    </article>
+                    <article>
+                        <h3>Produto e negócio</h3>
+                        <p>Levantamento de necessidades, fluxos de usuário, dashboards, indicadores e documentação para apresentação executiva.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Rigoberto Oliveira. Todos os direitos reservados.</p>
+    <footer class="footer">
+        <div class="container">
+            <span>© 2026 Rigoberto Oliveira</span>
+            <a href="https://github.com/RigobertoOliveira" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
     </footer>
 </body>
 </html>

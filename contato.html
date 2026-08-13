@@ -3,51 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - Portfólio de Rigoberto Oliveira</title>
+    <meta name="description" content="Contato de Rigoberto Oliveira para projetos web, suporte, automação e plataformas corporativas.">
+    <title>Contato | Rigoberto Oliveira</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <h1>Portfólio de Rigoberto Oliveira</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Sobre mim</a></li>
-                    <li><a href="formacao.html">Formação</a></li>
-                    <li><a href="portfolio.html">Portfólio</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
+    <header class="site-header">
+        <div class="container header-grid">
+            <a class="brand" href="index.html" aria-label="Página inicial">
+                <span>RO</span>
+                <strong>Rigoberto Oliveira</strong>
+            </a>
+            <nav class="nav" aria-label="Navegação principal">
+                <a href="index.html">Sobre</a>
+                <a href="formacao.html">Formação</a>
+                <a href="portfolio.html">Portfólio</a>
+                <a class="active" href="contato.html">Contato</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <section>
-            <h2 class="titulo-secao">Contato</h2>
-            <form action="https://formspree.io/f/xldrvral" method="POST">
-                <div class="form-group">
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="subject">Assunto:</label>
+        <section class="page-hero">
+            <div class="container narrow">
+                <p class="section-label">Vamos conversar</p>
+                <h1>Tem uma ideia, processo ou sistema para melhorar?</h1>
+                <p>Estou aberto a conversar sobre projetos web, automações, dashboards, suporte técnico, plataformas internas e evolução de produtos digitais.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container contact-grid">
+                <form class="contact-form" action="https://formspree.io/f/xldrvral" method="POST">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+
+                    <label for="subject">Assunto</label>
                     <input type="text" id="subject" name="subject" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Mensagem:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <button type="submit">Enviar</button>
-            </form>
+
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+
+                    <button class="button primary" type="submit">Enviar mensagem</button>
+                </form>
+
+                <aside class="contact-card">
+                    <h2>Onde me encontrar</h2>
+                    <p>Você também pode acompanhar meus projetos e evolução pelo GitHub.</p>
+                    <a class="button secondary" href="https://github.com/RigobertoOliveira" target="_blank" rel="noreferrer">Abrir GitHub</a>
+                    <div class="contact-note">
+                        <strong>Interesses atuais</strong>
+                        <span>Produtos web, plataformas corporativas, cloud, dados, automação e IA aplicada.</span>
+                    </div>
+                </aside>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Rigoberto Oliveira. Todos os direitos reservados.</p>
+    <footer class="footer">
+        <div class="container">
+            <span>© 2026 Rigoberto Oliveira</span>
+            <a href="index.html">Voltar ao início</a>
+        </div>
     </footer>
 </body>
 </html>

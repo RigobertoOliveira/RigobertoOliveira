@@ -3,49 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Rigoberto Oliveira</title>
+    <meta name="description" content="Portfólio de Rigoberto Oliveira com projeto de universidade corporativa, gestão de cursos, trilhas, vídeos e indicadores.">
+    <title>Portfólio | Rigoberto Oliveira</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <h1>Portfólio de Rigoberto Oliveira</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Sobre mim</a></li>
-                    <li><a href="formacao.html">Formação</a></li>
-                    <li><a href="portfolio.html">Portfólio</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
+    <header class="site-header">
+        <div class="container header-grid">
+            <a class="brand" href="index.html" aria-label="Página inicial">
+                <span>RO</span>
+                <strong>Rigoberto Oliveira</strong>
+            </a>
+            <nav class="nav" aria-label="Navegação principal">
+                <a href="index.html">Sobre</a>
+                <a href="formacao.html">Formação</a>
+                <a class="active" href="portfolio.html">Portfólio</a>
+                <a href="contato.html">Contato</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <section>
-            <h2 class="titulo-secao">Projetos</h2>
-            <div class="portfolio-item">
-                <h3>Programa de Gerenciamento de Lojas</h3>
-                <p>Desenvolvi um programa para a empresa onde trabalho que realiza as seguintes funções:</p>
-                <ul>
-                    <li>Cria um banco de dados a partir de uma planilha fornecida.</li>
-                    <li>Permite a entrada do número de uma loja e retorna as seguintes informações:
-                        <ul>
-                            <li>Grupo da Loja</li>
-                            <li>Versão do programa a ser utilizado</li>
-                            <li>IP do servidor da loja</li>
-                        </ul>
-                    </li>
-                    <li>Gera um arquivo .cfg com o nome da loja, que pode ser utilizado para operar o software da empresa de maneira adequada.</li>
-                </ul>
-                <p class="download-info">Você pode baixar o programa através do link abaixo:</p>
-                <a href="https://drive.google.com/file/d/18UUYGfF6GkfmOJGEPbyIxEHSa5BgmQsb/view?usp=sharing" target="_blank" class="btn-download">Baixar o programa</a>
+        <section class="page-hero">
+            <div class="container narrow">
+                <p class="section-label">Projeto principal</p>
+                <h1>Plataforma de universidade corporativa</h1>
+                <p>Um produto web completo para treinar colaboradores, liberar conteúdos por perfil, acompanhar progresso e transformar aprendizagem em indicadores gerenciais.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container project-showcase">
+                <article class="project-main">
+                    <div class="project-topline">
+                        <span>Produto web</span>
+                        <span>Cloudflare</span>
+                        <span>React</span>
+                    </div>
+                    <h2>Treinamento, gestão e indicadores em uma única plataforma.</h2>
+                    <p>A plataforma foi pensada para atender empresas com equipes distribuídas em diferentes cargos, lojas e grupos. O aluno vê apenas trilhas e cursos liberados para seu perfil, enquanto administradores e gestores acompanham evolução, aderência, certificados e pontos de atenção.</p>
+                    <div class="feature-list">
+                        <span>Área do aluno</span>
+                        <span>Painel administrativo</span>
+                        <span>Área do franqueado/gestor</span>
+                        <span>Editor visual de aulas</span>
+                        <span>Ranking por cargo</span>
+                        <span>Certificados</span>
+                        <span>Indicadores gerenciais</span>
+                        <span>Suporte a Mux e Vimeo</span>
+                    </div>
+                    <a class="button primary" href="https://github.com/RigobertoOliveira" target="_blank" rel="noreferrer">Ver perfil no GitHub</a>
+                </article>
+
+                <aside class="project-card">
+                    <h3>Escopo técnico</h3>
+                    <ul class="clean-list">
+                        <li>Autenticação por papel de usuário.</li>
+                        <li>Persistência com Cloudflare D1.</li>
+                        <li>Arquivos e imagens em Cloudflare R2.</li>
+                        <li>Deploy em Cloudflare Workers.</li>
+                        <li>Editor de cursos com cenas, vídeos, PDFs e quizzes.</li>
+                        <li>Controle de acesso por cargo, loja, grupo e usuário.</li>
+                        <li>Dashboards para operação e gestão.</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section soft">
+            <div class="container">
+                <p class="section-label">O que foi construído</p>
+                <div class="case-grid">
+                    <article>
+                        <h3>Experiência do aluno</h3>
+                        <p>Aulas organizadas em cenas visuais, vídeos com regra de progresso, PDFs interativos, quizzes, certificados, ranking e anotações.</p>
+                    </article>
+                    <article>
+                        <h3>Administração</h3>
+                        <p>Gestão de usuários, cargos, lojas, grupos, trilhas, cursos, conteúdos, permissões, calendário, auditoria e relatórios.</p>
+                    </article>
+                    <article>
+                        <h3>Gestão local</h3>
+                        <p>Visão por loja e grupo, acompanhamento de alunos, liberação pontual de cursos e mensagens customizadas para restrição de horário.</p>
+                    </article>
+                    <article>
+                        <h3>Produto preparado para crescer</h3>
+                        <p>Estrutura planejada para migração de usuários, histórico de progresso, proteção de vídeos, indicadores avançados e IA de treinamento.</p>
+                    </article>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Rigoberto Oliveira. Todos os direitos reservados.</p>
+    <footer class="footer">
+        <div class="container">
+            <span>© 2026 Rigoberto Oliveira</span>
+            <a href="contato.html">Contato</a>
+        </div>
     </footer>
 </body>
 </html>
