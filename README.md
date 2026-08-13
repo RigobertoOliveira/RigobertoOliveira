@@ -1,12 +1,13 @@
 # Olá, eu sou Rigoberto Oliveira
 
-Sou Analista de Sistemas Jr. e estou construindo minha trajetória como desenvolvedor com foco em produtos web, automação, suporte técnico, experiência do usuário e soluções para operação de empresas.
+Sou Analista de Sistemas Jr., estudante de Ciência de Dados na UNIVESP e estou construindo minha trajetória como desenvolvedor com foco em produtos web, automação, suporte técnico, experiência do usuário e soluções para operação de empresas.
 
 Minha base vem do dia a dia resolvendo problemas reais: apoio a unidades, configuração de sistemas, atendimento a usuários, entendimento de processos e criação de ferramentas para simplificar rotinas. Hoje estou transformando essa experiência prática em projetos cada vez mais completos, com frontend moderno, backend serverless, banco de dados, dashboards e integrações.
 
 ## Sobre Mim
 
 - Trabalho com suporte a sistemas, implantação, orientação de usuários e melhoria de processos.
+- Curso Ciência de Dados na UNIVESP.
 - Gosto de criar ferramentas que resolvem problemas operacionais de verdade.
 - Tenho interesse forte por desenvolvimento web, automação, banco de dados, cloud e inteligência artificial aplicada.
 - Estou evoluindo projetos com foco em produto: visual, usabilidade, regras de negócio, segurança e publicação em nuvem.
